@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 # Rendered by .github/workflows/release.yml on each v* tag.
-# Tokens substituted: 1.0.0, 6498c1e47f96f8a454266edb35ecd6577865cf997c9ff05da4faaa9b17b26129.
+# Tokens substituted: 1.1.0, 15604f370fc51db264259b2f680c2d50696b852298d342b9d80e248494884f6a.
 class HostIdentity < Formula
   desc "Stable host UUID across platforms, clouds, and Kubernetes"
   homepage "https://github.com/dekobon/host-identity"
-  version "1.0.0"
+  version "1.1.0"
   license any_of: ["Apache-2.0", "MIT"]
 
   # Apple-silicon-only. Intel Macs install via `cargo install
@@ -16,7 +16,7 @@ class HostIdentity < Formula
   on_macos do
     on_arm do
       url "https://github.com/dekobon/host-identity/releases/download/v#{version}/host-identity-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "6498c1e47f96f8a454266edb35ecd6577865cf997c9ff05da4faaa9b17b26129"
+      sha256 "15604f370fc51db264259b2f680c2d50696b852298d342b9d80e248494884f6a"
     end
   end
 
